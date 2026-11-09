@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:skillswap/presentation/login_screen.dart';
 import 'core/theme/app_theme.dart';
 
 void main() {
@@ -18,14 +19,7 @@ class SkillSwapApp extends StatelessWidget {
       theme: AppTheme.lightTheme,
 
       // Temporary Home Screen
-      home: const Scaffold(
-        body: Center(
-          child: Text(
-            'Welcome to SkillSwap!',
-            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-          ),
-        ),
-      ),
+      home:LoginScreen()
     );
   }
 }
