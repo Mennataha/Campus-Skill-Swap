@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:skillswap/screens/request_session_page.dart';
+import 'package:skillswap/screens/session_dashboard_page.dart';
+import 'package:skillswap/screens/session_setailes_page.dart';
 import 'core/theme/app_theme.dart';
 
 void main() {
