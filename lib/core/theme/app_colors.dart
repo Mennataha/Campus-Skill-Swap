@@ -4,23 +4,31 @@ class AppColors {
   AppColors._();
 
   // Primary Colors
-  static const Color primary = Color(0xFF087C70);
-  static const Color primaryDark = Color(0xFF075B55);
-  static const Color primaryLight = Color(0xFF9BE5D8);
+  static const Color primary = Color(0xFF006156);
+  static const Color primaryDark = Color(0xFF00504A);
+  static const Color primaryLight = Color(0xFFA6F2E6);
 
   // Background Colors
-  static const Color background = Color(0xFFF7FAFC);
+  static const Color background = Color(0xFFF7F9FF);
   static const Color surface = Color(0xFFFFFFFF);
-  static const Color surfaceLight = Color(0xFFEAF5F3);
+  static const Color surfaceLight = Color(0xFFE9EFFF);
+  static const Color surfaceBlue = Color(
+    0xFFE1EAFF,
+  ); // جديد: Chips وأيقونات بخلفية زرقاء فاتحة
+  static const Color surfaceMint = Color(
+    0xFFD6F5EF,
+  ); // جديد: تدرج خلفية كارت البروفايل
 
   // Accent Colors
   static const Color accent = Color(0xFFF5B64C);
-  static const Color accentLight = Color(0xFFFFF3D9);
+  static const Color accentLight = Color(0xFFFFDDB8);
+  static const Color accentDark = Color(0xFF8A5100); // جديد: نص النقاط والتقييم
+  static const Color star = Color(0xFFE08A00); // جديد: نجوم التقييم
 
   // Text Colors
-  static const Color textPrimary = Color(0xFF24343B);
-  static const Color textSecondary = Color(0xFF718096);
-  static const Color textHint = Color(0xFFA0AEC0);
+  static const Color textPrimary = Color(0xFF111C2D);
+  static const Color textSecondary = Color(0xFF3E4946);
+  static const Color textHint = Color(0xFF6F7976);
 
   // Status Colors
   static const Color success = Color(0xFF279B72);
