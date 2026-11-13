@@ -20,7 +20,7 @@ class AppColors {
   // Text Colors
   static const Color textPrimary = Color(0xFF0B1C30);
   static const Color textSecondary = Color(0xFF718096);
-  static const Color textHint = Color(0xFFA0AEC0);
+  static const Color textHint = Color(0xFF8C9EB1);
 
   // Status Colors
   static const Color success = Color(0xFF279B72);
@@ -31,4 +31,6 @@ class AppColors {
   // Border & Divider
   static const Color border = Color(0xFFE2E8F0);
   static const Color divider = Color(0xFFEDF1F5);
+  // Text field
+static const Color textFieldBackground= Color(0xFFF0F4FF);
 }
