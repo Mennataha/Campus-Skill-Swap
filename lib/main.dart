@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:skillswap/presentation/login_screen.dart';
+import 'package:skillswap/screens/login_screen.dart';
+import 'package:skillswap/screens/onboarding_screen.dart';
+import 'package:skillswap/screens/signup_screen.dart';
 import 'core/theme/app_theme.dart';
 
 void main() {
@@ -19,7 +21,7 @@ class SkillSwapApp extends StatelessWidget {
       theme: AppTheme.lightTheme,
 
       // Temporary Home Screen
-      home:LoginScreen()
+      home:OnboardingScreen()
     );
   }
 }
