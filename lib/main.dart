@@ -1,7 +1,12 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'core/theme/app_theme.dart';
 
-void main() {
+import 'core/theme/app_theme.dart';
+import 'firebase_options.dart';
+
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   runApp(const SkillSwapApp());
 }
 
@@ -13,19 +18,8 @@ class SkillSwapApp extends StatelessWidget {
     return MaterialApp(
       title: 'SkillSwap',
       debugShowCheckedModeBanner: false,
-
-      // App Theme
       theme: AppTheme.lightTheme,
-
-      // Temporary Home Screen
-      home: const Scaffold(
-        body: Center(
-          child: Text(
-            'Welcome to SkillSwap!',
-            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-          ),
-        ),
-      ),
+      home: const Scaffold(body: Center(child: Text('Firebase OK'))),
     );
   }
 }
